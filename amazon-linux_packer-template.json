@@ -12,7 +12,7 @@
         "ami_name": "{{user `aws_ami_name`}}",
         "ami_description": "test-ami",
         "associate_public_ip_address": "true",
-        "source_ami_filter": "ami-0ad99772"
+        "source_ami": "ami-0ad99772"
     }],
 
     "provisioners": [
