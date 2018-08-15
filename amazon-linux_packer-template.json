@@ -14,10 +14,10 @@
         "associate_public_ip_address": "true",
         "source_ami_filter": {
             "filters": {
-                "virtualization-type": "hvm",
-                "name": "amzn-ami*-ebs",
-                "root-device-type": "ebs"
-            },
+      "virtualization-type": "hvm",
+      "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
+      "root-device-type": "ebs"
+    },
             "owners": ["551444134522"],
             "most_recent": true
         }
